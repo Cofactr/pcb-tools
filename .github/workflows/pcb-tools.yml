@@ -1,4 +1,4 @@
-name: pcb-tools
+name: pcbtools
 
 on: [push, pull_request]
 

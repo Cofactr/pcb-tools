@@ -29,7 +29,7 @@ METADATA = {
     'description': "Utilities to handle Gerber (RS-274X) files.",
     'license': "Apache",
     'keywords': "pcb gerber tools",
-    'url': "http://github.com/curtacircuitos/pcb-tools",
+    'url': "http://github.com/Cofactr/pcb-tools",
     'packages': ['gerber', 'gerber.render'],
     'long_description': read('README.md'),
     'classifiers': [

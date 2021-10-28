@@ -22,7 +22,7 @@ def read(fname):
 
 
 METADATA = {
-    'name': 'pcb-tools',
+    'name': 'pcbtools',
     'version': 0.1,
     'author': 'Paulo Henrique Silva <ph.silva@gmail.com>, Hamilton Kibbe <ham@hamiltonkib.be>',
     'author_email': "ph.silva@gmail.com, ham@hamiltonkib.be",

@@ -209,9 +209,10 @@ class PCBLayer(object):
 
     """
     @classmethod
-    def from_cam(cls, camfile):
+    def from_cam(cls, camfile, layer_class = None):
         filename = camfile.filename
-        layer_class = guess_layer_class(filename)
+        if not layer_class:
+            layer_class = guess_layer_class(filename)
         if isinstance(camfile, ExcellonFile) or (layer_class == 'drill'):
             return DrillLayer.from_cam(camfile)
         elif layer_class == 'internal':
